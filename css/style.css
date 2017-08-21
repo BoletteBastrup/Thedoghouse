@@ -1,0 +1,3059 @@
+@charset "utf-8";
+/* CSS Document */
+/* Mobil version*/
+@media only screen and (max-width:767px){
+/* Header */
+.sog {
+	float: right;
+	width: 6%;
+	margin-top: -25%;
+	margin-right: 9%;
+}
+.navbar-header {
+	background-color: #a67d6e;
+}
+.logo {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -32%;
+}
+.kurv {
+	float: right;
+	width: 6%;
+	margin-right: 22.5%;
+	margin-top: -40%;
+}
+.navbar-nav {
+	margin-top: 0%;
+}
+.burger {
+	float: left;
+	width: 20%;
+	margin-left: -1%;
+	margin-top: 10%;
+}
+input[type=text] {
+	width: 8%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: -24.5%;
+	float: right;
+	margin-right: 1.5%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;	
+}
+input[type=text]:focus {
+    width: 20%;
+}
+.kurv1 {
+	display: none;
+	float: right;
+	width: 6%;
+	margin-right: 22.5%;
+	margin-top: -40%;
+}
+.sogg {
+	display: none;
+	float: right;
+	width: 6%;
+	margin-top: -25%;
+	margin-right: 8%;
+}
+#kob1 {
+	display: none;
+	font-family: "Lubalin Graph";
+	font-weight: 300;
+	color: #000;
+	font-size: 7px;
+	float: right;
+	margin-top: -38%;
+	margin-right: 5%;
+}
+.sbar2 input[type=text] {
+	display: none;
+	width: 14%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: -25%;
+	float: right;
+	margin-right: 1.5%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;	
+}
+.sbar2 input[type=text]:focus {
+	width: 30%;
+}
+.logo1 {
+	display: none;
+	width: 30%;
+}
+.desktop {
+	display: none;
+}
+#kob {
+	font-family: "Lubalin Graph";
+	font-weight: 300;
+	color: #000;
+	font-size: 7px;
+	float: right;
+	margin-top: -38%;
+	margin-right: 4%;
+}
+.collapse{
+		background-color: #a67d6e;
+		padding-left: 5%;
+}
+.navbar-collapse {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 18px;
+}
+.navbar {
+	width: 100%;
+	margin-top: -10%;
+}
+.dropdown-toggle {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 18px;
+}
+	.dropdown-menu li a {
+	font-family: "Lubalin Graph";
+	font-weight:300;
+	color: #fff;
+}
+	.multi-column-dropdown{
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+		font-size: 14px;
+	}
+	.multi-column-dropdown {
+	list-style: none;
+	background-color: #cdb094;
+	width: 300px;
+}
+	.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	list-style-type: none;
+	margin-left: -8%;
+}
+	.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+	.dropdown-menu.columns-2 {
+		min-width: 400px;
+	}
+.hjem {
+	color: #fff;
+}
+.hjem:hover {
+	color: #000;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #000;
+}
+/* Footer */
+.footer {
+	background-color: #a67d6e;
+	width: 100%;
+}
+p {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+}
+#nr {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	display: inline;
+}
+#email {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 9px;
+	display: inline;	
+}
+#face {
+	display: none;
+	width: 10.5%;
+	margin-left: -1%;
+	
+	}
+#insta {
+	display: none;
+	width: 8.5%;
+	margin-left: 3%;
+}
+#kuvert {
+	width: 8%;
+	margin-right: 1%;
+}
+#tel {
+	width: 8%;
+	margin-right: 1%;
+}
+h1 {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+.folgos {
+	display: none;
+	color: #fff;
+	font-family:'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+}
+#map {
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+/*Forsiden*/
+#pote {
+	display: none;
+	width: 100%;
+}
+#pote1 {
+	width: 100%;
+}
+.muligheder {
+	display: block;
+	background-color: #f79c2f;
+	color: #fff;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 2%;
+}
+a.muligheder {
+	text-align: center;
+}
+#skilt {
+	width: 25%;
+	margin-top: 5%;
+	margin-left: 1%;
+}
+#sidhund {
+	width: 30%;
+	float: right;
+	margin-top: -15%;
+}
+#gras {
+	width: 100%;
+	margin-top: -29%;
+}
+#hundmbold { 
+	display: none;
+	float: right;
+	margin-right: 3%;
+	margin-top: -3%;
+	}
+#pprodukter { 
+	display: none;
+	width: 15%;
+	float: right;
+}
+#sithund {
+	display: none;
+	float: left;
+}
+#Carousel {
+	float: left;
+	margin-left: -5%;
+}
+#carousel {
+	float: right;
+	margin-right: 5%;
+}
+.container1 {
+	display: none;
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: 22%;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+.taltilbud {
+	display: none;
+	float:left;
+	width: 30%;
+}
+/*Mærker*/
+.container-fluid {
+	position: relative;
+}
+.toplinje {
+	display: none;
+	border-bottom:2px solid #f1f1f1;
+}
+.tekstpb {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	position: absolute;
+	transform: translate(25%,-50%);
+	margin-top: -55%;
+}
+.tekstpb1 {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	position: absolute;
+	transform: translate(25%,-50%);
+	margin-top: 40%;
+}
+#herr {
+	text-align: center;
+}
+.tilbud {
+	width: 100%;
+	margin-bottom: 30%;
+	opacity: 0.9;
+	margin-top: 15%;
+}
+.tilbud1 {
+	margin-top: 30%;
+	opacity: 0.9;
+}
+.tilbud2 {
+	display: none;
+	width: 100%;
+	margin-top: 15%;
+	opacity: 0.9;
+}
+.tilbud3 {
+	display: none;
+	margin-top: 65%;
+	width: 100%;
+	opacity: 0.9;
+}
+#gul {
+	float: left;
+	width: 30%;
+	margin-top: -16%;
+	margin-left: 5%;
+}
+#rod {
+	float: right;
+	width: 30%;
+	margin-top: -18%;
+	margin-bottom: -5%;
+}
+.sthund {
+	display: none;
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+}
+.graas {
+	width: 100%;
+	margin-top: 28%;
+	margin-bottom: -7%;
+}
+.hundbold1 {
+	display: none;
+	float: right;
+	width: 20%;
+}
+/*tryk på produkt kun på mobil forsiden*/
+.venstre {
+	display: inline-block;
+	background-color: #f79c2f;
+	color: #fff;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	padding: 12%;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 20%;
+	
+}
+a.venstre {
+	text-align-last: center
+}
+.hojre {
+	display: inline-block;
+	background-color: #f79c2f;
+	color: #fff;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	float: right;
+	width: 100%;
+	padding: 12%;
+	text-decoration: none;
+	font-size: 15px;
+	margin-top: 20%;
+}
+a.hojre {
+	text-align-last: center;
+}
+.gras {
+	width: 100%;
+	margin-bottom: -0.5%;
+}
+/* Bio Gans underside til hundefoder*/
+.h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 10%;
+}
+.hundmbold {
+	float: right;
+	width: auto;
+	display: none;
+}
+.beskr {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	color: #000;
+	font-weight: 300;
+}
+.bestor {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 18px;
+}
+.bio {
+	width: 100%;
+	margin-top: 10%;
+}
+.oko {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	color: #000;
+}
+.talkurv {
+	display: none;
+	float: right;
+	width: 30%;
+}
+.hhund {
+	width: 25%;
+	float: right; 
+	margin-right: 5%;
+	margin-top: -25%;
+}
+#down {
+	float: left;
+	margin-left: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.h4 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+}
+#up {
+	float: right;
+	margin-right: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.kasse {
+	background-color: #f79d2f;
+	width: 100%;
+	display: block;
+}
+.ikurv {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	padding: 8.5%;
+}
+.leg {
+	display: block;
+	background-color: #f79d2f;
+	width: 100%;
+	margin-top: 6%;
+}
+.lkurv {
+	width: 24%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+#qty {
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	text-align: center;
+	margin-left: 8%;
+}
+.h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+	margin-top: -12%;
+}
+.gras {
+	width: 100%;
+}
+/* Om os */
+.maria {
+	width: 100%;
+}
+.maria1 {
+	display: none;
+	width: 40%;
+	float: right;
+}
+.maria2 {
+	display: none;
+	float: left;
+	width: 30%;
+}
+.max {
+	float: right;
+	width: 40%;
+	margin-top: -35%;
+	margin-right: -2%;
+}
+#velkommen {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #aa8c69;
+}
+#butik {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #aa8c69;
+}
+.toplinje {
+	border-bottom: 2px, #000;
+	width: 100%;
+}
+.toplinje1 {
+	border-bottom: 2px #000;
+	width: 50%;
+}
+.omos {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 13px;
+	margin-top: 5%;
+}
+.omoss {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 13px;
+	margin-top: 5%;
+}
+.vision {
+	font-family: 'Quicksand', sans-serif;
+	color: #000;
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 5%;
+}
+.omosstor {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+}
+.siddhund {
+	margin-bottom: -80%;
+}
+.gras {
+	width: 100%;
+	margin-top: -5%;
+}
+/*En pop up chatbox, kun til alle sider på desktop*/
+.popup-box {
+   background-color: #fff;
+    border: 1px solid #b0b0b0;
+    bottom: 0;
+    display: none;
+    height: 415px;
+    position: fixed;
+    right: 70px;
+    width: 300px;
+    font-family: 'Quicksand', sans-serif;
+}
+.container2 {
+	display: none;
+}
+.round.hollow {
+    margin: 40px 0 0;
+}
+.round.hollow a {
+    border-radius: 35px;
+    color: #f79d2f;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	float: right;
+	margin-right:5%;
+	margin-top:-5%;
+	font-weight: 700;
+}
+.round.hollow a:hover {
+    border-radius: 35px;
+    color: #000;
+    font-size: 23px;
+    padding: 10px 21px;
+    text-decoration: none;
+}
+.popup-box-on {
+    display: block !important;
+}
+.popup-box .popup-head{
+    background-color: #000;
+    clear: both;
+    color: #7b7b7b;
+    display: inline-table;
+    font-size: 21px;
+    padding: 7px 10px;
+    width: 100%;
+}
+.popup-messages-footer > textarea {
+    border-bottom: 1px solid #b2b2b2 !important;
+    height: 34px !important;
+    margin: 7px;
+    padding: 5px !important;
+    border: medium none;
+    width: 95% !important;
+}
+.popup-messages-footer {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.popup-messages-footer .btn-footer {
+    overflow: hidden;
+    padding: 2px 5px 10px 6px;
+    width: 100%;
+}
+.chat-header-button {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #636364;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+/*Hundefoder*/
+/*Dette er en box med valgmuligheder kun til deskktopversion*/
+.sidebox {
+	display: none;
+	background-color: #dbc5b0;
+	width: 40%;
+	margin-top: 30%;
+}
+#shund {
+	display: none;
+	width: 30%;
+	float: left;
+	margin-top: 4%;
+}
+.h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+.form {
+	display: none;
+	margin-left: 5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #000;
+	padding: 3%;
+}
+.pynt {
+	float: left;
+}
+.navn {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 8px;
+	color: #000;
+	text-align: center;
+}
+#mad1 {
+	width: 100%;
+	margin-top: 50%;
+	
+}
+#mad5 {
+	width: 100%;
+
+}
+#mad2 {
+	width: 100%;
+	margin-top: 50%;
+	
+}
+#mad3 {
+	width: 100%;
+	margin-top: 50%;
+	
+}
+#mad4 {
+	width: 100%;
+
+}
+#mad6 {
+	width: 100%;
+}
+.mere {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 5px;
+	font-weight: 300;
+	text-decoration: underline;
+	float: left;
+	margin-top: -10%;
+	
+}
+.mere:hover {
+	color: #2c7736;
+	text-decoration: underline;
+}
+.prisbox {
+	background-color: #f29d32;
+	display: block;
+	width: 100%;
+	margin-top: 15%;
+}
+.pris {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 8px;
+	padding: 2%;
+	text-align: center;
+}
+#sthund {
+	width: 30%;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: -11%;
+}
+#madskol {
+	width: 15%;
+	float: right;
+	margin-right: 20%;
+	margin-top: -12%;
+}
+#gras {
+	width: 100%;
+	margin-top: -2%;
+}
+.link {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+	text-decoration: underline;
+}
+/*Tilbuds siden*/
+/*dette er en box med valgmuligheder kun til desktop version*/
+.sideboks {
+	display: none;
+	width: 55%;
+	background-color: #dbc5b0;
+	margin-top: 10%;
+	height: 50%;
+}
+.formm {
+	display: none;
+	margin-left: 5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	padding: 5%;
+	padding-bottom: 10%;
+	color: #000;
+}
+.teksttop {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	text-decoration: underline;
+	float: left;
+	display: inline;
+}
+.navn {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 8px;
+	color: #000;
+	text-align: center;
+}
+.prisboks {
+	background-color: #f29d32;
+	display: block;
+	width: 100%;
+	margin-top: -5%;
+}
+.h1t {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 25px;
+}
+.nep {
+	float: left;
+	width: 5%;
+	margin-top: 1%;
+	position: static;
+}
+.tilbud {
+	width: 100%;
+	margin-top: 50%;
+}
+.tilbud1 {
+	width: 100%;
+	margin-top: 25%;
+}
+.siddhund {
+	width: 25%;
+	margin-top: -95%;
+	margin-left: 5%;
+}
+.grass {
+	width: 100%;
+	margin-top: 25%;
+	margin-bottom: -6%;
+}
+.bold {
+	width: 8%;
+	float: right;
+	margin-top: -15%;
+	margin-right: 20%;
+}
+.hundbold {
+	display: none;
+}
+}
+/*Tablet verision*/
+@media only screen and (min-width:768px) and (max-width:991px){
+/* Header */
+.sog {
+	float: right;
+	width: 6%;
+	margin-top: -25%;
+	margin-right: 8%;
+}
+.navbar-header {
+	display: none;
+	background-color: #a67d6e;
+}
+.logo {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -32%;
+}
+.kurv {
+	float: right;
+	width: 6%;
+	margin-right: 22.5%;
+	margin-top: -40%;
+}
+.navbar-nav {
+	margin-left: 30%;
+	margin-top: 6.5%;
+}
+.burger {
+	display: none;
+	float: left;
+	width: 20%;
+	margin-left: -1%;
+	margin-top: 10%;
+}
+input[type=text] {
+    width: 8%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: -25%;
+	float: right;
+	margin-right: 1.5%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	
+}
+input[type=text]:focus {
+    width: 20%;
+}
+.kurv1 {
+	display: block;
+	float: right;
+	width: 3%;
+	margin-right: 10%;
+	margin-top: 0%;
+}
+.sogg {
+	display: block;
+	float: right;
+	margin-top: 6.5%;
+	margin-right: -2%;
+	width: 3%;
+}
+#kob1 {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 13px;
+	float: right;
+	margin-top: 1%;
+	margin-right: -12%;
+}
+.sbar2 input[type=text] {
+	display: block;
+	width: 10%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: 7%;
+	float: right;
+	margin-right: -12%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;	
+}
+.sbar2 input[type=text]:focus {
+	width: 20%;
+}
+.logo1 {
+	display: block;
+	width: 28%;
+	position: absolute;
+	margin-left: -4%;
+	margin-top: 0.5%;
+}
+.desktop {
+	display: none;
+}
+#kob {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 7px;
+	float: right;
+	margin-top: -38%;
+	margin-right: 5%;
+}
+.collapse{
+		background-color: #a67d6e;
+		padding-left: 5%;
+}
+.navbar-collapse {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+}
+.navbar {
+	width: 100%;
+	margin-top: -10%;
+}
+.dropdown-toggle {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 20px;
+}
+	.dropdown-menu li a {
+	font-family: "Lubalin Graph";
+	color: #fff;
+}
+	.multi-column-dropdown{
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+		font-size: 15px;
+}
+	.multi-column-dropdown {
+	list-style: none;
+	background-color: #cdb094;
+	width: 220px;
+}
+	.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	list-style-type: none;
+	margin-left: -10%;
+
+}
+	.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+	.dropdown-menu.columns-2 {
+		min-width: 350px;
+		background-color: #a67d6e;
+	}
+.hjem {
+	color: #fff;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+}
+.hjem:hover {
+	color: #000;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #000;
+}
+/* Footer */
+
+.footer {
+	margin-top: -1%;
+	background-color: #a67d6e;
+	width: 100%;
+	text-align: center;
+}
+p {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 10%;
+}
+#nr {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	display: inline;
+}
+#email {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline;	
+}
+#face {
+	display: inline-block;
+	width: 10.5%;
+	margin-left: -1%;
+	
+	}
+#insta {
+	display: inline-block;
+	width: 8.5%;
+	margin-left: 3%;
+}
+#kuvert {
+	width: 8%;
+	margin-left: 5%;
+}
+#tel {
+	width: 8%;
+	margin-right: 1%;
+}
+h1 {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+.folgos {
+	display: block;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+#map {
+	display: none;
+	width: 100%;
+	height: 200px;
+}	
+/*Forsiden*/
+#pote {
+	display: block;
+	width: 100%;
+}
+#pote1 {
+	display: none;
+	width: 100%;
+}
+.muligheder {
+	display: none;
+	background-color: #f79c2f;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 1%;
+}
+a.muligheder {
+	text-align: center;
+}
+#skilt {
+	display: none;
+	width: 25%;
+	margin-top: -5%;
+	margin-left: 1%;
+}
+#sidhund {
+	display: none;
+	width: 30%;
+	float: right;
+	margin-top: -4%;
+}
+#gras {
+	width: 100%;
+	margin-top: -16%;
+}
+#hundmbold { 
+	display: block;
+	float: right;
+	margin-top: 0.5%;
+	width: 15%;
+	margin-right: 1%;
+	}
+#pprodukter { 
+	display: block;
+	width: 13%;
+	float: right;
+	margin-right: -5%;
+	margin-top: 12%;
+}
+#sithund {
+	display: block;
+	float: left;
+	width: 15%;
+	margin-top: -7%;
+	margin-left: 5%;
+}
+	.round.hollow a  {
+		float: right;
+		margin-right: 5%;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+	}
+#Carousel {
+	float: left;
+	margin-top: -52%;
+	margin-left: 1%;
+}
+#carousel {
+	float: right;
+	margin-top: -15%;
+	margin-right: -15%;
+}
+.container1 {
+	display: block;
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: 22%;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+.taltilbud {
+	display: block;
+	float:left;
+	width: 15%;
+	margin-top: 45%;
+	margin-left: 1%;
+}
+	/*Hundefoder*/
+/*Dette er en box med valgmuligheder kun til deskktopversion*/
+.sidebox {
+	display: block;
+	background-color: #dbc5b0;
+	width: 100%;
+	margin-top: 35%;
+}
+#shund {
+	display: block;
+	width: 45%;
+	float: left;
+	margin-top: -4%;
+	margin-left: 0%;
+}
+.h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.form {
+	display: block;
+	margin-left: 5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+	padding: 5%;
+}
+.pynt {
+	float: left;
+}
+.navn {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 8px;
+	color: #000;
+	text-align: center;
+}
+#mad1 {
+	width: 60%;
+	margin-top: 40%;
+	margin-left: 15%;
+	
+}
+#mad5 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+
+}
+#mad2 {
+	width: 60%;
+	margin-top: 40%;
+	margin-left: 15%;
+	
+}
+#mad3 {
+	width: 60%;
+	margin-top: 35%;
+	margin-left: 15%;
+	
+}
+#mad4 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+
+}
+#mad6 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+.navnf {
+	margin-top: 5%;
+	font-size: 20px;
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	}
+.mmere {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-decoration: underline;
+	float: left;
+	margin-top: -1%;
+	margin-left: 0%;	
+}
+.mmere:hover {
+	color: #2c7736;
+	text-decoration: underline;
+}
+#sthund {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+#madskol {
+	width: 10%;
+	float: right;
+	margin-right: 30%;
+	margin-top: -9%;
+}
+#gras {
+	width: 100%;
+	margin-top: -4%;
+	margin-bottom: 1%;
+}
+	.round.hollow a {
+		margin-bottom: -4%;
+		margin-right: 5%;
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+	}
+	.toplinje {
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	.h1t {
+		margin-top: -5%;
+		font-family: "Lubalin Graph";
+		font-size: 50px;
+		font-weight: 700;
+	}
+	.hist {
+		display: inline-block;
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+	}
+.link {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: -2%;
+}
+	.link1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: 2%
+	}
+	.link2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: 2%;
+	}
+/* Bio Gans underside til hundefoder*/
+.h1 {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 10%;
+	margin-left: 1%;
+	text-align: left;
+}
+.hundmbold {
+	float: right;
+	width: 80%;
+	display: block;
+	margin-right: -15%;
+}
+.beskr {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	text-align: left;
+	margin-left: 1%;
+}
+.bestor {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	width: 85%;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.bio {
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-bottom: -5%;
+}
+.oko {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	margin-left: 1%;
+}
+.talkurv {
+	display: block;
+	float: right;
+	width: 45%;
+	margin-right: 55%;
+}
+.hhund {
+	width: 15%;
+	float: right; 
+	margin-right: 10%;
+	margin-top: 0.25%;
+	margin-bottom: 1%;
+}
+#down {
+	float: left;
+	margin-left: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.h4 {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+}
+#up {
+	float: right;
+	margin-right: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.kasse {
+	background-color: #f79d2f;
+	width: 100%;
+	display: block;
+	margin-left: 1%;
+}
+.ikurv {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	padding: 8.5%;
+}
+.leg {
+	display: none;
+	background-color: #f79d2f;
+	width: 100%;
+	margin-top: 6%;
+}
+.lkurv {
+	width: 24%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+#qty {
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	text-align: center;
+	margin-left: 8%;
+}
+.h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 15%;
+}
+.gras {
+	width: 100%;
+	margin-top: auto;
+}
+	/*Mærker*/
+.container-fluid {
+	position: relative;
+}
+.toplinje {
+	display: block;
+	border-bottom:3px solid #f1f1f1;
+	margin-top: 3%;
+}
+	#herr {
+		float: left;
+		margin-left: 5%;
+		font-size: 30px;
+	}
+.tekstpb {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+	position: absolute;
+	text-align: center;
+	margin-top: -40%;
+	margin-left: 30%;
+}
+.tekstpb1 {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 15%;
+}
+.tilbud {
+	margin-bottom: 10%;
+	opacity: 0.9;
+	margin-top: 3%;
+	width: 60%;
+}
+.tilbud1 {
+	margin-top: 40%;
+	opacity: 0.9;
+	margin-left: 5%;
+	width: 60%;
+}
+.tilbud2 {
+	display: block;
+	width: 60%;
+	margin-bottom: 20%;
+	opacity: 0.9;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.tilbud3 {
+	display: block;
+	margin-top: 10%;
+	width: 60%;
+	opacity: 0.9;
+	margin-left: 5%;
+	margin-bottom: 18%;
+}
+#gul {
+	display: none;
+	float: left;
+	width: 30%;
+	margin-top: -23%;
+	margin-left: 5%;
+}
+#rod {
+	float: right;
+	width: 30%;
+	margin-top: -9%;
+	margin-right: 10%;
+	margin-bottom: -7%;
+}
+.sthund {
+	display: block;
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+	margin-top: -4%;
+}
+.graas {
+	width: 100%;
+	margin-top: -10%;
+	margin-bottom: -20%;
+}
+.hundbold1 {
+	display: block;
+	float: right;
+	width: 15%;
+	margin-top: -8%;
+	margin-right: 5%;
+}
+.h1t {
+	text-align: left;
+	margin-left: 2%;
+	font-size: 50px;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+}
+/*Tilbuds siden*/
+.hundbold {
+	display: block;
+	width: 60%;
+	float: left;
+	margin-top: 30%;
+	margin-left: 30%;
+}
+	.toplinje {
+		margin-top: 5%;
+	}
+	.hist {
+		margin-left: 1%;
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist1 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist2 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist3 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+.sideboks {
+	display: block;
+	width: 100%;
+	background-color: #dbc5b0;
+	margin-top: 65%;
+	margin-left: -5%;
+}
+.teksttop {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	text-decoration: underline;
+	float: left;
+	display: inline;
+}
+.formm {
+	display: block;
+	margin-left: 5%;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 18px;
+	padding: 5%;
+	padding-bottom: 10%;
+	color: #000;
+}
+.navn {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 3%;
+	margin-left: 5%;
+}
+.prisboks {
+	background-color: #f29d32;
+	display: block;
+	width: 100%;
+	margin-top: -5%;
+	margin-left: 5%;
+}
+.h1t {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 50px;
+	text-align: left;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.nep {
+	float: left;
+	width: 5%;
+	margin-top: 1%;
+	position: static;
+}
+.tilbud {
+	width: 60%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+.tilbud1 {
+	width: 60%;
+	margin-top: 30%;
+	margin-left: 25%;
+}
+.siddhund {
+	width: 15%;
+	margin-top: -12%;
+	margin-left: 5%;
+}
+.grass {
+	width: 100%;
+	margin-top: -5%;
+	margin-bottom: -26%;
+}
+	.round.hollow a {
+		margin-bottom: -2%;
+		margin-right: 1%;
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+	}
+.bold {
+	width: 8%;
+	float: right;
+	margin-top: -5%;
+	margin-right: 30%;
+}
+	.pris {
+		font-size: 15px;
+		text-align: center;
+		margin-left: -5%;
+	}
+	.mere {
+		font-size: 12px;
+		margin-top: -2%;
+		margin-left: 5%;
+	}
+/*Om os*/	
+.maria {
+	display: none;
+	width: 100%;
+}
+.maria1 {
+	display: block;
+	width: 30%;
+	float: right;
+	margin-top: -8%;
+	margin-right: 3%;
+	margin-left: 2%;
+}
+.maria2 {
+	display: block;
+	float: left;
+	width: 35%;
+	margin-top: 9%;
+	margin-right: 2%;
+	margin-left: 3%;
+}
+.max {
+	display: none;
+	float: right;
+	width: 40%;
+	margin-top: -35%;
+	margin-right: -2%;
+}
+#velkommen {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	color: #000;
+	font-size: 50px;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+#butik {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	color: #000;
+	font-size: 40px;
+	margin-top: 5%; 
+}
+.toplinje {
+	border-bottom: 2px, #000;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+.omos {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 50%;
+}
+.omoss {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 22px;
+	margin-top: 1%;
+	margin-left: 3%;
+}
+.vision {
+	font-family: 'Quicksand', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+}
+.omosstor {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+.gras {
+	width: 100%;
+	margin-top: auto;
+}
+.siddhund {
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+/*En pop up chatbox, kun til alle sider på desktop*/
+.popup-box {
+   background-color: #fff;
+    border: 1px solid #b0b0b0;
+    bottom: 0;
+    display: none;
+    height: 415px;
+    position: fixed;
+    right: 70px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container2 {
+	display: block;
+}
+.round.hollow {
+    margin: 40px 0 0;
+}
+.round.hollow a {
+    border-radius: 35px;
+    color: #f79d2f;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size:25px;
+	float: right;
+	margin-right:5%;
+	margin-top: 10%;
+}
+.round.hollow a:hover {
+    border-radius: 35px;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+    color: #000;
+    font-size: 23px;
+    padding: 10px 21px;
+    text-decoration: none;
+}
+.popup-box-on {
+    display: block !important;
+}
+.popup-box .popup-head{
+    background-color: #000;
+    clear: both;
+    color: #7b7b7b;
+    display: inline-table;
+    font-size: 21px;
+    padding: 7px 10px;
+    width: 100%;
+}
+.popup-messages-footer > textarea {
+    border-bottom: 1px solid #b2b2b2 !important;
+    height: 34px !important;
+    margin: 7px;
+    padding: 5px !important;
+    border: medium none;
+    width: 95% !important;
+}
+.popup-messages-footer {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.popup-messages-footer .btn-footer {
+    overflow: hidden;
+    padding: 2px 5px 10px 6px;
+    width: 100%;
+}
+.chat-header-button {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #636364;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+}	
+
+/* Desktop version*/
+@media only screen and (min-width:992px){
+/* Header */
+.sog {
+	float: right;
+	width: 6%;
+	margin-top: -25%;
+	margin-right: 8%;
+}
+.navbar-header {
+	display: none;
+	background-color: #a67d6e;
+}
+.logo {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -32%;
+}
+.kurv {
+	float: right;
+	width: 6%;
+	margin-right: 22.5%;
+	margin-top: -40%;
+}
+.navbar-nav {
+	margin-left: 30%;
+	margin-top: 6.5%;
+}
+.burger {
+	display: none;
+	float: left;
+	width: 20%;
+	margin-left: -1%;
+	margin-top: 10%;
+}
+input[type=text] {
+	display: none;
+    width: 8%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: -25%;
+	float: right;
+	margin-right: 1.5%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	
+}
+input[type=text]:focus {
+    width: 20%;
+}
+.kurv1 {
+	display: block;
+	float: right;
+	width: 3%;
+	margin-right: 10%;
+	margin-top: 0%;
+}
+.sogg {
+	display: block;
+	float: right;
+	margin-top: 7%;
+	margin-right: -32%;
+	width: 2%;
+}
+#kob1 {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 13px;
+	float: right;
+	margin-top: 1%;
+	margin-right: -12%;
+}
+.sbar2 input[type=text] {
+	display: block;
+	width: 10%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: white;
+	background-image:url('sog.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 5px 2px 5px;
+	margin-top: 7%;
+	float: right;
+	margin-right: -42%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;	
+}
+.sbar2 input[type=text]:focus {
+	width: 20%;
+}
+.logo1 {
+	display: block;
+	width: 28%;
+	position: absolute;
+	margin-left: -4%;
+	margin-top: 0.5%;
+}
+.desktop {
+	display: none;
+}
+#kob {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 7px;
+	float: right;
+	margin-top: -38%;
+	margin-right: 5%;
+}
+.collapse{
+		background-color: #a67d6e;
+		padding-left: 5%;
+}
+.navbar-collapse {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 25px;
+}
+.navbar {
+	width: 100%;
+	margin-top: -10%;
+}
+.dropdown-toggle {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 20px;
+}
+	.dropdown-menu li a {
+	font-family: "Lubalin Graph";
+	color: #fff;
+	font-weight: 300;
+}
+	.multi-column-dropdown{
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+		font-size: 15px;
+}
+	.multi-column-dropdown {
+	list-style: none;
+	background-color: #cdb094;
+	width: 220px;
+}
+	.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	list-style-type: none;
+	margin-left: -10%;
+
+}
+	.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+	.dropdown-menu.columns-2 {
+		min-width: 350px;
+		background-color: #a67d6e;
+	}
+.hjem {
+	color: #fff;
+	font-size: 20px;
+	text-decoration: none;
+}
+.hjem:hover {
+	color: #000;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #000;
+}
+/* Footer */
+
+.footer {
+	margin-top: -1%;
+	background-color: #a67d6e;
+	width: 100%;
+	text-align: center;
+}
+p {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 35%;
+	text-align: left;
+}
+#add {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 40%;
+	text-align: left;	
+}
+#nr {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	display: inline;
+	text-align:left;
+	margin-left: 1%;
+}
+#email {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	display: inline;	
+}
+#face {
+	display: inline-block;
+	width: 10.5%;
+	margin-left: 2%;
+	
+	}
+#insta {
+	display: inline-block;
+	width: 8.5%;
+	margin-left: 3%;
+}
+#kuvert {
+	width: 8%;
+	margin-left: 15%;
+}
+#tel {
+	width: 8%;
+	text-align: left;
+	margin-left: 2%;
+}
+h1 {
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+.folgos {
+	display: block;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+#map {
+	display: none;
+	width: 100%;
+	height: 200px;
+}	
+/*Forsiden*/
+#pote {
+	display: block;
+	width: 100%;
+}
+#pote1 {
+	display: none;
+	width: 100%;
+}
+.muligheder {
+	display: none;
+	background-color: #f79c2f;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	float: left;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-decoration: none;
+	font-size: 25px;
+	margin-top: 1%;
+}
+a.muligheder {
+	text-align: center;
+}
+#skilt {
+	display: none;
+	width: 25%;
+	margin-top: -5%;
+	margin-left: 1%;
+}
+#sidhund {
+	display: none;
+	width: 30%;
+	float: right;
+	margin-top: -4%;
+}
+#gras {
+	width: 100%;
+	margin-top: -16%;
+}
+#hundmbold { 
+	display: block;
+	float: right;
+	margin-right: 5%;
+	margin-top: 0.5%;
+	width: 15%;
+	}
+#pprodukter { 
+	display: block;
+	width: 13%;
+	float: right;
+	margin-right: -5%;
+	margin-top: 12%;
+}
+#sithund {
+	display: block;
+	float: left;
+	width: 15%;
+	margin-top: 0%;
+	margin-left: 5%;
+}
+	.round.hollow a  {
+		float: right;
+		margin-right: 5%;
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+	}
+#Carousel {
+	float: left;
+	margin-top: -38%;
+	margin-left: 10%;
+}
+#carousel {
+	float: right;
+	margin-top: -10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+.container1 {
+	display: block;
+}
+.carousel {
+    margin-bottom: 0;
+    padding: 0 40px 30px 40px;
+}
+/* The controlsy */
+.carousel-control {
+	left: -12px;
+    height: 40px;
+	width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 90px;
+}
+.carousel-control.right {
+	right: -2%;
+}
+/* The indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: -10px;
+	margin-right: -19px;
+}
+/* The colour of the indicators */
+.carousel-indicators li {
+	background: #cecece;
+}
+.carousel-indicators .active {
+background: #428bca;
+}
+.taltilbud {
+	display: block;
+	float:left;
+	width: 15%;
+	margin-top: 30%;
+	margin-left: 13%;
+}
+	/*Hundefoder*/
+/*Dette er en box med valgmuligheder kun til deskktopversion*/
+.sidebox {
+	display: block;
+	background-color: #dbc5b0;
+	width: 100%;
+	margin-top: 35%;
+}
+#shund {
+	display: block;
+	width: 45%;
+	float: left;
+	margin-top: -4%;
+	margin-left: 0%;
+}
+.h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.form {
+	display: block;
+	margin-left: 5%;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+	padding: 5%;
+}
+.pynt {
+	float: left;
+}
+.navn {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 8px;
+	color: #000;
+	text-align: center;
+}
+#mad1 {
+	width: 60%;
+	margin-top: 40%;
+	margin-left: 15%;
+	
+}
+#mad5 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+
+}
+#mad2 {
+	width: 60%;
+	margin-top: 40%;
+	margin-left: 15%;
+	
+}
+#mad3 {
+	width: 60%;
+	margin-top: 35%;
+	margin-left: 15%;
+	
+}
+#mad4 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+
+}
+#mad6 {
+	width: 60%;
+	margin-top: 20%;
+	margin-left: 15%;
+}
+.navnf {
+	margin-top: 5%;
+	font-size: 20px;
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	}
+.mmere {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	text-decoration: underline;
+	float: left;
+	margin-top: -1%;
+	margin-left: 0%;	
+}
+.mmere:hover {
+	color: #2c7736;
+	text-decoration: underline;
+}
+#sthund {
+	width: 15%;
+	float: left;
+	margin-left: 5%;
+	margin-top: -5%;
+}
+#madskol {
+	width: 10%;
+	float: right;
+	margin-right: 30%;
+	margin-top: -9%;
+}
+#gras {
+	width: 100%;
+	margin-top: -4%;
+	margin-bottom: 1%;
+}
+	.round.hollow a {
+		margin-bottom: -4%;
+		margin-right: 5%;
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+	}
+	.toplinje {
+		margin-top: 2%;
+		margin-bottom: 1%;
+	}
+	.h1t {
+		margin-top: -5%;
+		font-family: "Lubalin Graph";
+		font-size: 50px;
+		font-weight: 700;
+	}
+	.hist {
+		display: inline-block;
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+	}
+.link {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: -2%;
+}
+	.link1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: 2%
+	}
+	.link2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	text-decoration: underline;
+	display: inline-block;
+	margin-top: -90%;
+	margin-left: 2%;
+	}
+/* Bio Gans underside til hundefoder*/
+.h1 {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 40px;
+	margin-top: 10%;
+	margin-left: 1%;
+	text-align: left;
+}
+.hundmbold {
+	float: right;
+	width: 80%;
+	display: block;
+	margin-right: -15%;
+}
+.beskr {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	text-align: left;
+	margin-left: 1%;
+}
+.bestor {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	width: 85%;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.bio {
+	width: 50%;
+	margin-top: 10%;
+	margin-left: 25%;
+	margin-bottom: -5%;
+}
+.oko {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 20px;
+	color: #000;
+	margin-left: 1%;
+}
+.talkurv {
+	display: block;
+	float: right;
+	width: 45%;
+	margin-right: 55%;
+}
+.hhund {
+	width: 15%;
+	float: right; 
+	margin-right: 10%;
+	margin-top: 0.25%;
+	margin-bottom: 1%;
+}
+#down {
+	float: left;
+	margin-left: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.h4 {
+	display: none;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+}
+#up {
+	float: right;
+	margin-right: 5%;
+	margin-top: 6%;
+	width: 13%;
+}
+.kasse {
+	background-color: #f79d2f;
+	width: 100%;
+	display: block;
+	margin-left: 1%;
+}
+.ikurv {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	text-align: center;
+	font-size: 15px;
+	padding: 8.5%;
+}
+.leg {
+	display: none;
+	background-color: #f79d2f;
+	width: 100%;
+	margin-top: 6%;
+}
+.lkurv {
+	width: 24%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+#qty {
+	width: 50%;
+	padding: 5%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	text-align: center;
+	margin-left: 8%;
+}
+.h2 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 15%;
+}
+.gras {
+	width: 100%;
+	margin-top: auto;
+}
+	/*Mærker*/
+.container-fluid {
+	position: relative;
+}
+.toplinje {
+	display: block;
+	border-bottom:3px solid #f1f1f1;
+	margin-top: 3%;
+}
+	#herr {
+		float: left;
+		margin-left: 5%;
+		font-size: 30px;
+	}
+.tekstpb {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+	position: absolute;
+	text-align: center;
+	margin-top: -40%;
+	margin-left: 30%;
+}
+.tekstpb1 {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 30px;
+	position: absolute;
+	margin-top: -55%;
+	margin-left: 15%;
+}
+.tilbud {
+	margin-bottom: 10%;
+	opacity: 0.9;
+	margin-top: 3%;
+	width: 60%;
+}
+.tilbud1 {
+	margin-top: 40%;
+	opacity: 0.9;
+	margin-left: 5%;
+	width: 60%;
+}
+.tilbud2 {
+	display: block;
+	width: 60%;
+	margin-bottom: 20%;
+	opacity: 0.9;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.tilbud3 {
+	display: block;
+	margin-top: 10%;
+	width: 60%;
+	opacity: 0.9;
+	margin-left: 5%;
+	margin-bottom: 18%;
+}
+#gul {
+	display: none;
+	float: left;
+	width: 30%;
+	margin-top: -23%;
+	margin-left: 5%;
+}
+#rod {
+	float: right;
+	width: 30%;
+	margin-top: -9%;
+	margin-right: 10%;
+	margin-bottom: -7%;
+}
+.sthund {
+	display: block;
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+	margin-top: -4%;
+}
+.graas {
+	width: 100%;
+	margin-top: -10%;
+	margin-bottom: -20%;
+}
+.hundbold1 {
+	display: block;
+	float: right;
+	width: 15%;
+	margin-top: -8%;
+	margin-right: 5%;
+}
+.h1t {
+	text-align: left;
+	margin-left: 2%;
+	font-size: 50px;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+}
+/*Tilbuds siden*/
+.hundbold {
+	display: block;
+	width: 60%;
+	float: left;
+	margin-top: 30%;
+	margin-left: 30%;
+}
+	.toplinje {
+		margin-top: 5%;
+	}
+	.hist {
+		margin-left: 1%;
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist1 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist2 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+	.hist3 {
+		color: #000;
+		text-decoration: underline;
+		font-family: 'Quicksand', sans-serif;
+		margin-top: 1%;
+		display: inline-block;
+	}
+.sideboks {
+	display: block;
+	width: 100%;
+	background-color: #dbc5b0;
+	margin-top: 65%;
+	margin-left: -5%;
+}
+.teksttop {
+	color: #000;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
+	text-decoration: underline;
+	float: left;
+	display: inline;
+}
+.formm {
+	display: block;
+	margin-left: 5%;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 18px;
+	padding: 5%;
+	padding-bottom: 10%;
+	color: #000;
+}
+.navn {
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size: 15px;
+	color: #000;
+	text-align: center;
+	padding-bottom: 3%;
+	margin-left: 5%;
+}
+.prisboks {
+	background-color: #f29d32;
+	display: block;
+	width: 100%;
+	margin-top: -5%;
+	margin-left: 5%;
+}
+.h1t {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 50px;
+	text-align: left;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.nep {
+	float: left;
+	width: 5%;
+	margin-top: 1%;
+	position: static;
+}
+.tilbud {
+	width: 60%;
+	margin-top: 5%;
+	margin-left: 25%;
+}
+.tilbud1 {
+	width: 60%;
+	margin-top: 30%;
+	margin-left: 25%;
+}
+.siddhund {
+	width: 15%;
+	margin-top: -12%;
+	margin-left: 5%;
+}
+.grass {
+	width: 100%;
+	margin-top: -5%;
+	margin-bottom: -26%;
+}
+	.round.hollow a {
+		margin-bottom: -2%;
+		margin-right: 1%;
+		font-family: "Lubalin Graph";
+		font-weight: 700;
+	}
+.bold {
+	width: 8%;
+	float: right;
+	margin-top: -5%;
+	margin-right: 30%;
+}
+	.pris {
+		font-size: 15px;
+		text-align: center;
+		margin-left: -5%;
+	}
+	.mere {
+		font-size: 12px;
+		margin-top: -2%;
+		margin-left: 5%;
+	}
+/*Om os*/	
+.maria {
+	display: none;
+	width: 100%;
+}
+.maria1 {
+	display: block;
+	width: 30%;
+	float: right;
+	margin-top: -8%;
+	margin-right: 3%;
+	margin-left: 2%;
+}
+.maria2 {
+	display: block;
+	float: left;
+	width: 35%;
+	margin-top: 9%;
+	margin-right: 2%;
+	margin-left: 3%;
+}
+.max {
+	display: none;
+	float: right;
+	width: 40%;
+	margin-top: -35%;
+	margin-right: -2%;
+}
+#velkommen {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	color: #000;
+	font-size: 50px;
+	margin-left: 3%;
+	margin-top: 5%;
+}
+#butik {
+	display: block;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+	color: #000;
+	font-size: 40px;
+	margin-top: 5%; 
+}
+.toplinje {
+	border-bottom: 2px, #000;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+}
+.omos {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 50%;
+}
+.omoss {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 700;
+	color: #000;
+	font-size: 22px;
+	margin-top: 1%;
+	margin-left: 3%;
+}
+.vision {
+	font-family: 'Quicksand', sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 30px;
+	margin-top: 3%;
+	margin-left: 3%;
+	margin-bottom: 2%;
+}
+.omosstor {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #000;
+	font-size: 20px;
+	margin-right: 5%;
+	margin-top: 3%;
+}
+.gras {
+	width: 100%;
+	margin-top: auto;
+}
+.siddhund {
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+/*En pop up chatbox, kun til alle sider på desktop*/
+.popup-box {
+   background-color: #fff;
+    border: 1px solid #b0b0b0;
+    bottom: 0;
+    display: none;
+    height: 415px;
+    position: fixed;
+    right: 70px;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container2 {
+	display: block;
+}
+.round.hollow {
+    margin: 40px 0 0;
+}
+.round.hollow a {
+    border-radius: 35px;
+    color: #f79d2f;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-family: "Lubalin Graph";
+	font-weight: 700;
+	font-size:25px;
+	float: right;
+	margin-right:5%;
+	margin-top: 10%;
+}
+.round.hollow a:hover {
+    border-radius: 35px;
+	font-family: "Lubalin Graph";
+	font-weight: 700;
+    color: #000;
+    font-size: 23px;
+    padding: 10px 21px;
+    text-decoration: none;
+}
+.popup-box-on {
+    display: block !important;
+}
+.popup-box .popup-head{
+    background-color: #000;
+    clear: both;
+    color: #7b7b7b;
+    display: inline-table;
+    font-size: 21px;
+    padding: 7px 10px;
+    width: 100%;
+}
+.popup-messages-footer > textarea {
+    border-bottom: 1px solid #b2b2b2 !important;
+    height: 34px !important;
+    margin: 7px;
+    padding: 5px !important;
+    border: medium none;
+    width: 95% !important;
+}
+.popup-messages-footer {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+.popup-messages-footer .btn-footer {
+    overflow: hidden;
+    padding: 2px 5px 10px 6px;
+    width: 100%;
+}
+.chat-header-button {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #636364;
+    border-radius: 50%;
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+}
+}
